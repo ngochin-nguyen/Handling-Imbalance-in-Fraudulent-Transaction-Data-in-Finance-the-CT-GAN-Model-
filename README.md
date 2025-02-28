@@ -26,6 +26,27 @@ This is my research project on imbalanced data in financial fraud for the semina
 ## Project Goal:
 By leveraging **CT-GAN (Conditional Tabular GAN)**, this project aims to generate synthetic fraud samples to balance the dataset, thereby improving fraud detection model performance.
 
+## Results and Findings
+
+As observed in previous research, **credit card fraud detection** has gained significant attention in recent years, and multiple studies have been conducted to achieve optimal prediction performance using machine learning. As discussed earlier, **class imbalance is a major challenge** in credit card fraud detection.
+
+### 🔹 Dataset 1 (Credit Card Fraud Detection)
+- We encountered **overfitting** when attempting to generate fraudulent samples in large numbers (up to 1 million rows).  
+- **Precision was too low**, leading to ineffective F1-score results.  
+- Thus, **GMean and Recall were found to be the most optimal evaluation metrics** in this scenario.  
+
+### 🔹 Dataset 2 (Fraud Detection Dataset)
+- We used a **hybrid approach combining CT-GAN and SelectKBest feature selection** to address class imbalance in machine learning models.  
+- **Three models were developed** based on this method.  
+- **Random Forest combined with SelectKBest and CT-GAN outperformed all other classifiers (LR, XGB)**, achieving **100% Recall and F1-score**.  
+
+### 🔹 Overall Model Performance:
+- After training on **CT-GAN augmented data**, all classifiers showed **significant improvements in overall prediction performance** while reducing errors.  
+- This study used datasets with entirely **numerical features**.  
+- In the future, this approach could be tested on **categorical data** to verify its reliability.  
+- The proposed method could also be applied to **other classification problems across different domains**.  
+
+
 ## 📖 Reference:
 This project was conducted under the guidance of **Dr. Trần Anh Tuấn**.  
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/tuantran83/)  
