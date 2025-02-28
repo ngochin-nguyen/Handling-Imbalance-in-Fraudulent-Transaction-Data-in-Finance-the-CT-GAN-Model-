@@ -26,6 +26,10 @@ This is my research project on imbalanced data in financial fraud for the semina
 ## Project Goal:
 By leveraging **CT-GAN (Conditional Tabular GAN)**, this project aims to generate synthetic fraud samples to balance the dataset, thereby improving fraud detection model performance.
 
+## 📖 Reference:
+This project was conducted under the guidance of **Dr. Trần Anh Tuấn**.  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/tuantran83/)  
+
 ---
 📌 **Next Steps**:  
 - Train the **CT-GAN model** on the imbalanced dataset.  
